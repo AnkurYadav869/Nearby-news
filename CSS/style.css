@@ -57,10 +57,9 @@ footer {
   .carousel img {
     width: 80%;
   }
-  .apply {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+   .apply {
+    display: flex;
+    flex-direction: column;
   }
   .font-size {
     font-size: 1rem;
