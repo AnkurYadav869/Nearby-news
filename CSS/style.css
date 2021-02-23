@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+}
+.sponser .oneplus {
+  height: 10%;
+  width: 15%;
+}
+.sponser .govt,
+.google {
+  width: 10%;
+  height: 10%;
+}
+.sponser .tel,
+.ap {
+  width: 8%;
+  height: 8%;
+}
+
+.brand {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.apply {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.box {
+  width: 70%;
+  margin: 0 auto;
+  background: transparent linear-gradient(180deg, #0448a6 0%, #022453 100%) 0%
+    0% no-repeat padding-box;
+  z-index: 1;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+}
+
+.box .spam img {
+  width: 100%;
+}
+
+footer {
+  background: transparent linear-gradient(-292deg, #fff 0%, #e19d00 100%) 0% 0%
+    no-repeat padding-box;
+}
+@media (max-width: 700px) {
+  .carousel img {
+    width: 80%;
+  }
+  .apply {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .font-size {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .box {
+    width: 80%;
+  }
+  .box .spam img {
+    width: 100%;
+  }
+  .box .spam {
+    text-align: center;
+  }
+  .box .spam img {
+    width: 70%;
+  }
+}
